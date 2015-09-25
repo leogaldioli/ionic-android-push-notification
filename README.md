@@ -35,7 +35,7 @@ Trocar o campo API_KEY pela chave de servidor criada no Google Cloud Messaging
 
   `POST`
   
-*  **URL Params**
+*  **Body Params**
 
    **Required:**
  
