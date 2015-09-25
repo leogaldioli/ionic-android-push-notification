@@ -1,5 +1,18 @@
 # Exemplo de notificação push em android utilizando ionic e nodejs
 Deve-se seguir este tutorial para se cadastrar no [**Google Cloud Messaging for Android**](https://developers.google.com/cloud-messaging/), gerar a *API KEY* e o *Project Number*.
+
+## Instalação
+
+```bash
+$ cd app
+$ ionic platforms add android
+```
+
+```bash
+$ cd push-server
+$ npm install
+```
+
 ## Alterações necessárias
 
 ### Arquivo /app/www/js/app.js
@@ -8,7 +21,7 @@ Trocar a o campo PROJECT_NUMBER do arquivo app/app.js para o número do projeto 
 ### Arquivo /push-server/routes/push.js
 Trocar o campo API_KEY pela chave de servidor criada no Google Cloud Messaging
 
-# Para realizar a notificação push basta utilizar a rota descrita abaixo
+# Rota para envio da notificaçao
 
 * **URL**
 
