@@ -17,7 +17,7 @@ $ npm install
 
 ### Arquivo /app/www/js/app.js
 ```
-Trocar a o campo PROJECT_NUMBER do arquivo app/app.js para o número do projeto criado no Google Cloud Messaging
+Trocar a o campo PROJECT_NUMBER para o número do projeto criado no Google Cloud Messaging
 ```
 ### Arquivo /push-server/routes/push.js
 
