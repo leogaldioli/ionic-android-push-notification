@@ -16,10 +16,14 @@ $ npm install
 ## Alterações necessárias
 
 ### Arquivo /app/www/js/app.js
+```
 Trocar a o campo PROJECT_NUMBER do arquivo app/app.js para o número do projeto criado no Google Cloud Messaging
-
+```
 ### Arquivo /push-server/routes/push.js
+
+```
 Trocar o campo API_KEY pela chave de servidor criada no Google Cloud Messaging
+```
 
 # Rota para envio da notificaçao
 
